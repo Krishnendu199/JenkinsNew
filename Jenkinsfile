@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'main', url: 'https://github.com/Krishnendu199/JenkinsWebApp'
+                git branch: 'main', url: 'https://github.com/Krishnendu199/JenkinsNew'
             }
         }
 
@@ -55,4 +55,5 @@ pipeline {
         }
 
     }
+
 }
